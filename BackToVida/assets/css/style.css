@@ -641,11 +641,12 @@ section{
         height: calc(100vh - 9.5rem);
     }
 
-    .header .navbar.active{
-        right:0;
+    .home{
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
     }
-
-    .header .navbar a{
         color:var(--black);
         display: block;
         margin:1.5rem;
@@ -678,6 +679,11 @@ section{
 
     html{
         font-size: 50%;
+    }
+
+    .home {
+        background-position: center;
+        background-size: contain;
     }
 
 }
