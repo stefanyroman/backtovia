@@ -642,16 +642,13 @@ section{
     }
 
     .home{
-        background-position: center;
-        background-size: cover;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
-    }
-        color:var(--black);
-        display: block;
-        margin:1.5rem;
-        padding:.5rem;
-        font-size: 2rem;
     }
 
     .header .search-form{
@@ -659,11 +656,7 @@ section{
         right: 2rem;
     }
 
-    .home{
-        background-position: left;
-        justify-content: center;
-        text-align: center;
-    }
+    /* removed duplicate .home rule */
 
     .home .content h3{
         font-size: 4.5rem;
@@ -682,8 +675,13 @@ section{
     }
 
     .home {
-        background-position: center;
+        background-position: center center;
         background-size: contain;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
 }
